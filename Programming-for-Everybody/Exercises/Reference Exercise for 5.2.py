@@ -1,14 +1,21 @@
-number = 0
-total = 0.0
+largest = -1
+smallest = None
 
-while True :
-    string_value = (input('Please enter a number: '))
-    if string_value == 'done'.lower() :
+while True:
+    string_input = input("Enter a number: ")
+    if string_input == 'done':
         break
-
-    float_value = float(string_value)
-    print (float_value)
-    number = number + 1
-    total = total + float_value
-
-print('Finished!')
+    try:
+        validinput = float(string_input)
+    except:
+        print('Invalid input')
+        continue
+    if validinput > largest:
+        largest = validinput
+    if smallest is None: 
+        smallest = validinput
+    elif validinput < smallest:
+        smallest = validinput   
+         
+print('Maximum is', int(largest))
+print('Minimum is', int(smallest))
