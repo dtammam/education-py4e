@@ -10,3 +10,5 @@ t = 'Mommy Dearest'
 print(t[:2])
 print(t[8:])
 print(t[:])
+
+print(len('training'))
