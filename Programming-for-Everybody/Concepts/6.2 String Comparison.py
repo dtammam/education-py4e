@@ -1,3 +1,9 @@
+'''
+String Comparison
+    - < and > work for letters
+    - Z is < than a
+'''
+
 word = input('Please input a word:')
 
 if word == 'banana':
