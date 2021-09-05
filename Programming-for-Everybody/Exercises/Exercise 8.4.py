@@ -7,21 +7,21 @@ When the program completes, sort and print the resulting words in alphabetical o
 You can download the sample data at http://www.py4e.com/code3/romeo.txt
 '''
 
-# fname = input("Enter file name: ")
-fname = 'romeo.txt'
+fname = input("Enter file name: ")
 fhand = open(fname)
-temp = list()
-lst = list()
+lines = []
+tempwords = []
+words = []
 
 for line in fhand:
-    line = line.rstrip()
-    words = line.split()
-    temp.append(words)
-    
-temp.sort()
-
-for x in temp:
-    if x not in lst[:99] : continue
-    lst.append(x)
+    line = line.strip()
+    lines = line.split()
+    for x in lines:
+        tempwords.append(x)
         
-print(lst)
+for x in tempwords:
+    if x not in words:
+        words.append(x)
+
+words.sort()
+print(words)
