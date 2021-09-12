@@ -8,7 +8,27 @@ After the dictionary is produced, the program reads through the dictionary using
 # Desired Output
 # cwen@iupui.edu 5
 
-name = input("Enter file:")
-if len(name) < 1:
-    name = "mbox-short.txt"
-handle = open(name)
+fname = input("Enter file:")
+
+if len(fname) < 1:
+    fname = "mbox-short.txt"
+
+fhand = open(fname)
+counts = dict()
+
+for line in fhand :
+    line = line.rstrip()
+    if not line.startswith('From ') : continue
+    words = line.split()
+    email = words[1]
+    counts[email] = counts.get(email,0) + 1
+
+bigcount = None
+bigword = None
+
+for word,count in counts.items():
+    if bigcount is None or count > bigcount:
+        bigword = word
+        bigcount = count
+
+print(bigword, bigcount)
