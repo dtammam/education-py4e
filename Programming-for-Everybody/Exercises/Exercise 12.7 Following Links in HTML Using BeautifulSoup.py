@@ -44,142 +44,18 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-# Set relevant variables for the loop
-count = 0
-loop = 0
-iteration = 1
-
-# Open the target webpage
+# Set starting webpage
 url = 'http://py4e-data.dr-chuck.net/known_by_Kelsay.html'
-html = urllib.request.urlopen(url, context=ctx).read()
-soup = BeautifulSoup(html, 'html.parser')
+# Set how many times we need to loop through
+count = int(input('Input count: '))
+# Set the position we're shooting for, subtracting 1 for the starting position
+position = int(input('Input position: ')) - 1
 
-
-count = 7
-position = 18
-url = 'http://py4e-data.dr-chuck.net/known_by_Kelsay.html'
-
-##########################################################
-
-def follow(count, position, url):
-    urllib.request.urlopen(u, context=ctx).read()
+# Loop through, opening a page and setting the proper positional URL as the new one, then print and continue for the total number of counts remaining
+while count > 0 :
+    count -= 1
+    html = urllib.request.urlopen(url, context=ctx).read()
     soup = BeautifulSoup(html, 'html.parser')
     tags = soup('a')
-
-    for x in tags:
-        link = tag.get('href', None)
-    position = p
-    url = u
-
-
-
-
-# Loop through for <a> tags, count and sum
-tags = soup('a')
-for tag in tags:
-    link = tag.get('href', None)
-    print(link)
-    print('yep')
-    count += 1
-    if count == 18 :
-        url = link
-        urllib.request.urlopen(url, context=ctx).read()
-        print()
-        break
-
-count == 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Loop through for <a> tags, count and sum
-tags = soup('a')
-for tag in tags:
-    link = tag.get('href', None)
-    print(link)
-    print('yep')
-    count += 1
-    if count == 18 :
-        url = link
-        urllib.request.urlopen(url, context=ctx).read()
-        print()
-        break
-
-count == 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# # Loop through for <a> tags, count and sum
-# tags = soup('a')
-# for tag in tags:
-#     link = tag.get('href', None)
-#     # print(link)
-#     count += 1
-#     if count == 18 :
-#         newurl1 = link
-#         break
+    url = tags[position].get('href', None)
+    print('Retrieving: ', url)
