@@ -33,30 +33,36 @@ Extracting Data from XML
         Count: 50
         Sum: 2...
 '''
-
+# Import our relevant modules
 import urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
 import ssl
 
-# Ignore SSL certificate errors
+# Ignore SSL certificate errors on any websites we open
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
+# Set and open our URL, count characters and notify the user
 url = 'http://py4e-data.dr-chuck.net/comments_1324195.xml'
 print('Retrieving', url)
 urlhand = urllib.request.urlopen(url, context=ctx)
-
 data = urlhand.read()
 print('Retrieved', len(data), 'characters')
+
+# Create our tree reference and open our 'count' tag
 tree = ET.fromstring(data)
 lst = tree.findall('comments/comment')
 print('Total count:', len(lst))
+
+# Set a counter variable for adding the values of 'count' tags
 counter = 0
 
+# Loop through all 'count' tags, add them to our counter variable
 for num in lst:
     countobject = int(num.find('count').text)
     print(int(num.find('count').text))
     counter += countobject
 
+# Print the sum of all counted 'count' tags in the XML
 print(counter)
