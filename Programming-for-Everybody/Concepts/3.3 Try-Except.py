@@ -1,3 +1,9 @@
+'''
+Try-Except
+
+    - Like a try/else, except...
+    - Except is a way to prevent a try if needed
+'''
 rawstr = input('Enter a number:')
 try:
     ival = int(rawstr)

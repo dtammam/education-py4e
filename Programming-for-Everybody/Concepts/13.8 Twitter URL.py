@@ -1,7 +1,9 @@
 '''
 Twitter URL
-'''
 
+    - This is a way to call Twitter
+    - Tweet, twot, twote
+'''
 # import urllib
 # import oauth
 # import hidden

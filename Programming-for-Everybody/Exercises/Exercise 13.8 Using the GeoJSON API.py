@@ -1,5 +1,6 @@
 '''
 Calling a JSON API
+
     In this assignment you will write a Python program somewhat similar to http://www.py4e.com/code3/geojson.py. The program will prompt for a location, contact a web service and retrieve JSON for the web service and parse that data, and retrieve the first place_id from the JSON. A place ID is a textual identifier that uniquely identifies a place as within Google Maps.
     
     API End Points
@@ -26,7 +27,6 @@ Calling a JSON API
         Make sure to enter the name and case exactly as above and enter the place_id and your Python code below. Hint: The first seven characters of the place_id are "ChIJE1b ..."
         Make sure to retreive the data from the URL specified above and not the normal Google API. Your program should work with the Google API - but the place_id may not match for this assignment.
 '''
-
 # Import relevant modules
 import urllib.request, urllib.parse, urllib.error
 import json

@@ -1,8 +1,8 @@
 '''
 Many Counters with a Dictionary
+
     - One common use of dictionaries is counting how often we 'see' something.
 '''
-
 ccc = dict()
 ccc['csev'] = 1
 ccc['cwen'] = 1

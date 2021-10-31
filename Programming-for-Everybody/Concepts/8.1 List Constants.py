@@ -1,5 +1,6 @@
 '''
 List Constants
+
     - List constants are surrounded by square brackets and the elements in the list are separated by commas.
     - A list element can be any Python object - even another list
     - A list can be empty

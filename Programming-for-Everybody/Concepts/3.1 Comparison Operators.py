@@ -1,3 +1,9 @@
+'''
+Comparison Operators
+
+    - These operators are key syntax to know as we navigate python
+    - Most contain more than one character
+'''
 w = input("What is X?")
 x = int(w)
 

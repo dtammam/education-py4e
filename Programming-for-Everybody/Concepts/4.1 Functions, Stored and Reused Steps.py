@@ -1,3 +1,9 @@
+'''
+Functions, Stored and Reused Steps
+
+    - Functions are clutch
+    - They save us from needing to re-type code
+'''
 def thing():
     print('Auntie Amira')
     print('Baby Daisy')

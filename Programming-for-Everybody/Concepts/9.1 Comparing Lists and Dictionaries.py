@@ -1,9 +1,9 @@
 '''
 Comparing Lists and Dictionaries
+
     - Dictionaries are like lists except that they use keys instead of numbers to look up values
     - Its' the difference between labels and positions
 '''
-
 # A list, that does the same thing as the dictionary below
 lst = list()
 lst.append(21)

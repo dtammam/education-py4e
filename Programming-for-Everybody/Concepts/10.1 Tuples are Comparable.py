@@ -1,5 +1,6 @@
 '''
 Tuples are Comparable
+
     - The comparison operators work with tuples and other sequences
     - If the first item is equal, Python goes on to the next element, and so on, until it finds elements that differ
 '''

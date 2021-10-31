@@ -1,5 +1,6 @@
 '''
 The newline Character
+
     - We use a special character called the "newline" to indicate when a line ends
     - We represent it as \n in strings
     - Newline is still one character - not two
@@ -12,7 +13,6 @@ The newline Character
 		- Newlines are white space! Things you don't see but exist
         - By default, print() prints out a newline for us at the end
 '''
-
 stuff = 'Hello\nWorld!'
 print(stuff)
 

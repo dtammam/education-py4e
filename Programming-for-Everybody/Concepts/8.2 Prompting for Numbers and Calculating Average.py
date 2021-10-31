@@ -1,5 +1,6 @@
 '''
 Prompting for Numbers and Calculating Average
+
     - This is a good demonstration of what this would look like with our easy-to-use built-in functions.
     - We don't need to construct the full on loops like we did in the past.
 '''

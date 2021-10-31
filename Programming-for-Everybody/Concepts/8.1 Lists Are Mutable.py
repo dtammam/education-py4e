@@ -1,9 +1,9 @@
 '''
-Lists are mutable
+Lists Are Mutable
+
     - Strings are 'immutable' - we cannot change the contents of a string. We must make a new string to make any change.
     - Lists are 'mutable' - we can change an element of a list using the index operator
 '''
-
 fruit = 'Banana'
 
 # This code would fail for a string

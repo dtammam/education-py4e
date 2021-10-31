@@ -1,7 +1,10 @@
 '''
-Geo JSON Call
-'''
+GeoJSON Call
 
+    - See below for almost a full lifecycle of a GeoJSON API call to Google
+    - We call Google APIs, pass information and get it back
+    - We are missing API keys and a potential dictionary to pass multiple parameters
+'''
 import urllib.request, urllib.parse, urllib.error
 import json
 

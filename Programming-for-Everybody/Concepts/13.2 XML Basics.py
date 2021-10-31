@@ -1,12 +1,12 @@
 '''
 XML Basics
+
     - Start Tag
     - End Tag
     - Text Content
     - Attribute
     - Self Closing Tag
 '''
-
 # <person>
 #   <name>Chuck</name>
 #   <phone type="intl">

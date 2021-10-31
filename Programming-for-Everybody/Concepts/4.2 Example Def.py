@@ -1,3 +1,9 @@
+'''
+Example Def
+
+    - This shows you that you need to call a function
+    - If you don't call it, it won't actually run
+'''
 x = 5 
 
 print('Hello')

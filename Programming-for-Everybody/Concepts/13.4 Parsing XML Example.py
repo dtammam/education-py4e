@@ -1,10 +1,10 @@
 '''
 Parsing XML Example
+
     - We can use xml.etree.ElementTree similarly to how we used BeautifulSoup to parse XML
     - Using 'as' to create a quick attribute saves us a lot of typing later on in the code
     - This is very dependent on proper syntax. If anything is wrong with the syntax, we'll get a traceback
 '''
-
 import xml.etree.ElementTree as ET
 data = '''<person>
     <name>Chuck</name>

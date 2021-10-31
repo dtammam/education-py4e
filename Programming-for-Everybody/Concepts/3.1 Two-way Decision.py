@@ -1,3 +1,9 @@
+'''
+Two-way Decision
+
+    - If/else is powerful. It checks the condition of a variable.
+    - If it's true... great do this, or else, do this instead.
+'''
 x = 100
 
 if x < 1000 :

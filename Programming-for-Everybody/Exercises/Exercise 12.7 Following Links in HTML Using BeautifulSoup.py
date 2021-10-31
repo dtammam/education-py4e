@@ -28,9 +28,7 @@ Following Links in Python
         Retrieving: http://py4e-data.dr-chuck.net/known_by_Butchi.html
         Retrieving: http://py4e-data.dr-chuck.net/known_by_Anayah.html
         The answer to the assignment for this execution is "Anayah".
-
 '''
-
 # To run this, download the BeautifulSoup zip file
 # http://www.py4e.com/code3/bs4.zip
 # and unzip it in the same directory as this file

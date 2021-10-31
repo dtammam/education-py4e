@@ -1,5 +1,6 @@
 '''
 Wild-Card Characters
+
     - The dot character matches any character
     - If you add the asterisk character, the character is "any number of times"
 '''

@@ -1,9 +1,9 @@
 '''
 Bad File Names
+
     - If a user were to input a bad file name… it would blow up
     - We can build in mechanisms to deal with that using a try/except block
 '''
-
 fname = input('Enter the file name:   ')
 try:
     fhand = open(fname)

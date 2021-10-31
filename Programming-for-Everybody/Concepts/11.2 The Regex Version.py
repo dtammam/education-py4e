@@ -1,9 +1,9 @@
 '''
 The Regex Version
+
     - Things can be done multiple ways.
     - In certain instances, regex can do things more elegantly
 '''
-
 # For reference, how we can use find and string slicing without regex for pulling a host!
 # data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
 # at = data.find('@')

@@ -19,7 +19,6 @@ Scraping Numbers from HTML using BeautifulSoup
  You are to find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.Look at the sample code provided. It shows how to find all of a certain kind of tag, loop through the tags and extract the various aspects of the tags.
  You need to adjust this code to look for span tags and pull out the text content of the span tag, convert them to integers and add them up to complete the assignment.
 '''
-
 # Open modules, prep BeautifulSoup
 from urllib.request import urlopen
 from bs4 import BeautifulSoup

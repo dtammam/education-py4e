@@ -1,3 +1,9 @@
+'''
+Nested Decisions
+
+    - Decisions can be made at multiple levels of loops
+    - In this example, we are checking for multiple conditions and can interact accordingly
+'''
 w = input("What is our reference number?")
 x = int(w)
 

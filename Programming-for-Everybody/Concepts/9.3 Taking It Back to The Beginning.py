@@ -1,10 +1,10 @@
 '''
 Taking It Back to the Beginning
+
     - This is the original page shown at the beginning of the class!
     - All lines are now understood!
     - We're using two nested loops!
 '''
-
 name = input('Enter file:')
 handle = open(name)
 

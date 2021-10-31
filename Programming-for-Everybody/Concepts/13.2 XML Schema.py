@@ -1,5 +1,6 @@
 '''
 XML Schema
+
     - Description of the legal format of an XML document
     - Expressed in terms of constraints on the structure and content of documents
     - Often used to specify a "contract" between systems - "My system will only accept XML that conforms to this particular Schema."

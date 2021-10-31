@@ -1,10 +1,10 @@
 '''
 Treating Like a File
+
     - It only takes a few lines of code to take a web page and roll it into a simple import statement
     - If you think about things as files, you can easily handle data on the internet
     - A webpage is an internet 'file'
 '''
-
 import urllib.request, urllib.parse, urllib.error
 
 fhand = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')

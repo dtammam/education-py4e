@@ -1,10 +1,10 @@
 '''
 XML Terminology
+
     - Tags indicate the beginning and ending of elements.
     - Attributes - Keyword/value pairs on the opening tag of XML.
     - Serialize / De-Serialize - Convert data in one program into a common format that can be stored and/or transmitted between systems in a programming language-independent manner
 '''
-
 # <breakfast_menu>
 #     <food>
 #         <name>Belgian Waffles</name>

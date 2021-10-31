@@ -1,7 +1,9 @@
 '''
 Example Twitter API Call
-'''
 
+    - This is a way to call Twitter
+    - Tweet, twot, twote
+'''
 # import urllib.request, urllib.parse, urllib.error
 # import twurl
 # import json

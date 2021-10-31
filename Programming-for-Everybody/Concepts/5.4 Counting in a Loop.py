@@ -1,3 +1,10 @@
+'''
+Counting in a Loop
+
+    - The example below shows how to count on our variable
+    - We continually loop through, checking to see if we satisfy the condition
+    - After 7, we're done
+'''
 plumbus = 0
 print('This is the magic counting machine. It breaks after 7 plumbuses, so avoid doing this.')
 print('Before', plumbus)
