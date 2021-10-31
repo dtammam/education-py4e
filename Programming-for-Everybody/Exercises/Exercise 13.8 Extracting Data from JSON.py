@@ -41,25 +41,33 @@ Extracting Data from JSON
 import urllib.request, urllib.parse, urllib.error
 import json
 import ssl
-import xml.etree.ElementTree as ET
 
 # Ignore SSL certificate errors on any websites we open
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
-# Set and open our URL, count characters and notify the user
+# Set and open our URL
 url = 'http://py4e-data.dr-chuck.net/comments_1324196.json'
 print('Retrieving', url)
 urlhand = urllib.request.urlopen(url, context=ctx)
 data = urlhand.read()
 print('Retrieved', len(data), 'characters')
 
+# Set and open our JSON
 info = json.loads(data)
-print('Count:', len(info['comments']))
-named = (int(len(info['comments'])))
 
-for x in info:
-    print('Name', x['name'][0]['name'])
-#     print('Count', x['count'][0]['count'])
-#     named =- 1
+# Count characters retrieved and print our retrieved characters!
+print('Count:', len(info['comments']))
+
+# Set our variables for index position and total count
+x = 0
+total = 0
+
+# Engage a for loop to review all objects in the 'comments' array, add to our total and then add 1 to engage the next index position
+for item in info['comments']:
+    total += int(info['comments'][x]['count'])
+    x += 1
+
+# Print our sum!
+print('Sum:', total)
