@@ -1,0 +1,30 @@
+﻿Current_Port,New_Port,Desc,Type,Access_VLAN,Voice_VLAN,Trunk_Allowed_VLANs,Trunk_Native_Vlan,Port_Channel_Member,Port_Channel_Mode
+1/0/1,1/0/47,voip router,Access,17,20,,,,
+1/0/2,2/0/48,secondary isp handoff,Access,101,,,,,
+1/0/3,1/0/14,primary velo ge4,Access,101,,,,,
+1/0/4,2/0/14,secondary velo ge4,Access,101,,,,,
+1/0/7,1/0/2,atlas-stamford-fw-pa850-01 eth 1/2 ,Access,101,,,,,
+1/0/8,2/0/2,atlas-stamford-fw-pa850-02 eth 1/2 ,Access,101,,,,,
+1/0/9,1/0/1,atlas-stamford-fw-pa850-01 eth 1/1,Access,100,,,,,
+1/0/10,2/0/1,atlas-stamford-fw-pa850-02 eth 1/1,Access,100,,,,,
+1/0/11,1/0/5,atlas-stamford-fw-pa850-01 AE1 member,Trunk,,,"10-12,15-18,20,22,24,26,27",999,1,Active
+1/0/12,1/0/6,atlas-stamford-fw-pa850-01 AE1 member,Trunk,,,"10-12,15-18,20,22,24,26,27",999,1,Active
+1/0/13,2/0/6,atlas-stamford-fw-pa850-02 AE1 member,Trunk,,,"10-12,15-18,20,22,24,26,27",999,2,Active
+1/0/14,2/0/7,atlas-stamford-fw-pa850-02 AE1 member,Trunk,,,"10-12,15-18,20,22,24,26,27",999,2,Active
+1/0/15,1/0/10,atlas-stamford-fw-pa850-01 mgmt,Access,10,,,,,
+1/0/16,2/0/10,atlas-stamford-fw-pa850-02 mgmt,Access,10,,,,,
+1/0/17,1/0/4,atlas-stamford-fw-pa850-01 eth 1/4,Access,105,,,,,
+1/0/18,2/0/4,atlas-stamford-fw-pa850-02 eth 1/4,Access,105,,,,,
+1/0/19,1/0/12,primary velo ge2,Access,105,,,,,
+1/0/20,2/0/12,secondary velo ge2,Access,105,,,,,
+1/0/21,1/0/43,printer,Access,11,,,,,
+1/0/31,1/0/44,security card reader,Access,27,,,,,
+1/0/32,2/0/44,security card reader,Access,27,,,,,
+1/0/34,3/0/44,security card reader,Access,27,,,,,
+1/0/35,2/0/43,printer,Access,11,,,,,
+1/0/39,1/0/16,esxi vmhost nic 0,Trunk,,,"15,18",1,,
+1/0/40,1/0/17,esxi host idrac,Access,15,,,,,
+1/0/45,3/0/43,printer,Access,11,,,,,
+1/0/46,1/0/45,meraki camera,Access,10,,,,,
+1/0/47,1/0/46,meraki ap,Trunk,,,"10,22,24,26",10,,
+1/0/48,2/0/46,meraki ap,Trunk,,,"10,22,24,26",10,,

@@ -1,0 +1,254 @@
+int gi 1/0/47
+desc voip router
+switchport mode access
+switchport access vlan 17
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+switchport voice vlan 20
+auto qos trust
+auto qos voip cisco-phone
+!
+int gi 2/0/48
+desc secondary isp handoff
+switchport mode access
+switchport access vlan 101
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/14
+desc primary velo ge4
+switchport mode access
+switchport access vlan 101
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 2/0/14
+desc secondary velo ge4
+switchport mode access
+switchport access vlan 101
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/2
+desc atlas-stamford-fw-pa850-01 eth 1/2 
+switchport mode access
+switchport access vlan 101
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 2/0/2
+desc atlas-stamford-fw-pa850-02 eth 1/2 
+switchport mode access
+switchport access vlan 101
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/1
+desc atlas-stamford-fw-pa850-01 eth 1/1
+switchport mode access
+switchport access vlan 100
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 2/0/1
+desc atlas-stamford-fw-pa850-02 eth 1/1
+switchport mode access
+switchport access vlan 100
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/5
+desc atlas-stamford-fw-pa850-01 AE1 member
+switchport mode trunk
+switchport nonegotiate
+switchport trunk allowed vlan add 10-12,15-18,20,22,24,26,27
+switchport trunk native vlan 999
+channel group 1 mode Active
+!
+int gi 1/0/6
+desc atlas-stamford-fw-pa850-01 AE1 member
+switchport mode trunk
+switchport nonegotiate
+switchport trunk allowed vlan add 10-12,15-18,20,22,24,26,27
+switchport trunk native vlan 999
+channel group 1 mode Active
+!
+int gi 2/0/6
+desc atlas-stamford-fw-pa850-02 AE1 member
+switchport mode trunk
+switchport nonegotiate
+switchport trunk allowed vlan add 10-12,15-18,20,22,24,26,27
+switchport trunk native vlan 999
+channel group 2 mode Active
+!
+int gi 2/0/7
+desc atlas-stamford-fw-pa850-02 AE1 member
+switchport mode trunk
+switchport nonegotiate
+switchport trunk allowed vlan add 10-12,15-18,20,22,24,26,27
+switchport trunk native vlan 999
+channel group 2 mode Active
+!
+int gi 1/0/10
+desc atlas-stamford-fw-pa850-01 mgmt
+switchport mode access
+switchport access vlan 10
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 2/0/10
+desc atlas-stamford-fw-pa850-02 mgmt
+switchport mode access
+switchport access vlan 10
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/4
+desc atlas-stamford-fw-pa850-01 eth 1/4
+switchport mode access
+switchport access vlan 105
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 2/0/4
+desc atlas-stamford-fw-pa850-02 eth 1/4
+switchport mode access
+switchport access vlan 105
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/12
+desc primary velo ge2
+switchport mode access
+switchport access vlan 105
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 2/0/12
+desc secondary velo ge2
+switchport mode access
+switchport access vlan 105
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/43
+desc printer
+switchport mode access
+switchport access vlan 11
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/44
+desc security card reader
+switchport mode access
+switchport access vlan 27
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 2/0/44
+desc security card reader
+switchport mode access
+switchport access vlan 27
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 3/0/44
+desc security card reader
+switchport mode access
+switchport access vlan 27
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 2/0/43
+desc printer
+switchport mode access
+switchport access vlan 11
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/16
+desc esxi vmhost nic 0
+switchport mode trunk
+switchport nonegotiate
+switchport trunk allowed vlan add 15,18
+switchport trunk native vlan 1
+!
+int gi 1/0/17
+desc esxi host idrac
+switchport mode access
+switchport access vlan 15
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 3/0/43
+desc printer
+switchport mode access
+switchport access vlan 11
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/45
+desc meraki camera
+switchport mode access
+switchport access vlan 10
+spanning-tree portfast
+spanning-tree bpduguard enable
+switchport nonegotiate
+spanning-tree guard root
+!
+int gi 1/0/46
+desc meraki ap
+switchport mode trunk
+switchport nonegotiate
+switchport trunk allowed vlan add 10,22,24,26
+switchport trunk native vlan 10
+!
+int gi 2/0/46
+desc meraki ap
+switchport mode trunk
+switchport nonegotiate
+switchport trunk allowed vlan add 10,22,24,26
+switchport trunk native vlan 10
+!

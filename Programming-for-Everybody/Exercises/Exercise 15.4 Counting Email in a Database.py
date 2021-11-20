@@ -6,7 +6,7 @@ Counting Email in a Database
         CREATE TABLE Counts (org TEXT, count INTEGER)
 
     When you have run the program on mbox.txt upload the resulting database file above for grading.
-    If you run the program multiple times in testing or with dfferent files, make sure to empty out the data before each run.
+    If you run the program multiple times in testing or with different files, make sure to empty out the data before each run.
 '''
 import sqlite3
 
