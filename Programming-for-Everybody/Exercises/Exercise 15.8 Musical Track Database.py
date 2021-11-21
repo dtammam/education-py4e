@@ -99,9 +99,9 @@ if ( len(fname) < 1 ) : fname = 'Library.xml'
     # <key>Artist</key><string>Queen</string>
 
 # Define a function to lookup an item in a node via loop
-def lookup(d, key):
+def lookup(node, key):
     found = False
-    for child in d:
+    for child in node:
         if found : return child.text
         if child.tag == 'key' and child.text == key :
             found = True
@@ -124,8 +124,7 @@ for entry in all:
     length = lookup(entry, 'Total Time')
 
     # Keep going if nodes are empty
-    if name is None or artist is None or album is None or genre is None : 
-        continue
+    if name is None or artist is None or album is None or genre is None : continue
 
     # Print out the results in a terminal as we process each line
     print(name, artist, album, genre, count, rating, length)
