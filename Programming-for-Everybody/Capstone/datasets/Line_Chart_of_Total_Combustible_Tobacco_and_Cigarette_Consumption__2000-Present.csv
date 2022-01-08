@@ -1,0 +1,43 @@
+Year,LocationAbbrev,LocationDesc,Population,Topic,Measure,Submeasure,Data Value Unit,Domestic,Imports,Total,Domestic Per Capita,Imports Per Capita,Total Per Capita
+2000,US,National,209786736,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,423250355675,12319663000,435570018675,2018,59,2076
+2000,US,National,209786736,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,437154499804,13570647662,450725147466,2084,65,2148
+2001,US,National,212345162,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,412031245791,14688910000,426720155791,1940,69,2010
+2001,US,National,212345162,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,424447310483,16245487123,440692797606,1999,77,2075
+2002,US,National,214754648,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,408303465673,22459975923,430763441596,1901,105,2006
+2002,US,National,214754648,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,394871830876,20851781000,415723611876,1839,97,1936
+2003,US,National,217068101,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,391196952717,24733051892,415930004609,1802,114,1916
+2003,US,National,217068101,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,377241580953,23085086000,400326666953,1738,106,1844
+2004,US,National,219552929,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,390166439041,24254733538,414421172579,1777,110,1888
+2004,US,National,219552929,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,374977639606,22677777000,397655416606,1708,103,1811
+2005,US,National,222003984,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,380712422031,20474781600,401187203631,1715,92,1807
+2005,US,National,222003984,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,362963574561,18134795000,381098369561,1635,82,1717
+2006,US,National,224583123,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,364437096601,16156451000,380593547601,1623,72,1695
+2006,US,National,224583123,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,382748665603,18493161400,401241827003,1704,82,1787
+2007,US,National,227239768,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,348317484882,13272402000,361589886882,1533,58,1591
+2007,US,National,227239768,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,367880476823,16206169554,384086646377,1619,71,1690
+2008,US,National,229945137,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,335384308754,11035202000,346419510754,1459,48,1507
+2008,US,National,229945137,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,357080696204,14183410908,371264347112,1553,62,1615
+2009,US,National,232458335,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,329491123539,12632961400,342124084939,1417,54,1472
+2009,US,National,232458335,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,308387865658,9348209000,317736074658,1327,40,1367
+2010,US,National,235153929,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,317475052695,11764157615,329239210311,1350,50,1400
+2010,US,National,235153929,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,292753880443,7696903000,300450783443,1245,33,1278
+2011,US,National,237657645,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,315683514293,10893776123,326577290416,1328,46,1374
+2011,US,National,237657645,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,286352524912,6416560000,292769084912,1205,27,1232
+2012,US,National,240185952,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,279838393182,7348808000,287187201182,1165,31,1196
+2012,US,National,240185952,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,310009439421,12386990662,322396430083,1291,52,1342
+2013,US,National,242542967,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,266088075153,7697423000,273785498153,1097,32,1129
+2013,US,National,242542967,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,295476582903,14164450662,309641033564,1218,58,1277
+2014,US,National,245273438,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,282020020624,16175868538,298195889163,1150,66,1216
+2014,US,National,245273438,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,254486570103,8194703000,262681273103,1038,33,1071
+2015,US,National,247773709,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,285537129046,17214155385,302751284431,1152,69,1222
+2015,US,National,247773709,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,259720555991,8540221000,268260776991,1048,34,1083
+2016,US,National,249485228,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,249824734796,7629000000,257453734796,1001,31,1032
+2016,US,National,249485228,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,273881993213,17154801323,291036794536,1098,69,1167
+2017,US,National,252063800,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,239296509804,7866487000,247162966804,949,32,981
+2017,US,National,252063800,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,263359518483,17581121431,280940639914,1045,70,1115
+2018,US,National,253768092,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,226917325438,8403294000,235319378039,894,33,927
+2018,US,National,253768092,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,249351495626,19823602569,269167785869,983,77,1061
+2019,US,National,255200373,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,234601291857,21813751754,256415043611,876,128,1004
+2019,US,National,255200373,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,213401171495,10031711000,223432882495,836,39,876
+2020,US,National,256662010,Combustible Tobacco,All Combustibles,Total Combustible Tobacco,Cigarette Equivalents,235888722742,21726898662,257615621404,891,113,1004
+2020,US,National,256662010,Combustible Tobacco,Cigarettes,Cigarette Removals,Cigarettes,215858600507,12706364000,228564964507,841,49,890
