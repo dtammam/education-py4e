@@ -20,7 +20,7 @@ while True:
     elif number % 2 == 0:
         print(number, 'is even, continuing.')
         number = int(number / 2)
-        print('Number is now ', number)
+        print('Number is now', number)
         count += 1
         continue
     
