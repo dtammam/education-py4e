@@ -15,8 +15,6 @@ print(s[6:7])
 print(s[6:20])
 
 t = 'Mommy Dearest'
-print(t[:2])
-print(t[8:])
+print(t[:5])
+print(t[6:])
 print(t[:])
-
-print(len('training'))
