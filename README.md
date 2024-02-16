@@ -1,5 +1,7 @@
 # Python-Scripts
 
+Repository for Python for Everyone class and notes
+
 Early adventures on the quest to learn to code!
 
 Welcome to my repo! 👋 This repo was created on 8/15/2021 after a few months of dabbling in the world of code.
